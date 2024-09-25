@@ -220,3 +220,22 @@
 //     console.log("oxerida chiqadi");
 // })
 // console.log("ikkiinchi chiqadi");
+
+// const fn = a => b => [[a * 2, b * 2]];
+
+// const [a, b] = fn(4)(8)[0];
+// console.log(a);
+// console.log(b);
+
+
+// Array funksiyada\
+
+// function salom(a){
+//     return function (b){
+//         return[[a+50,b+50]]
+//     }
+// }
+
+// const [a,b]=salom(10)(10)[0]
+// console.log(a);
+// console.log(b);
