@@ -173,11 +173,50 @@
 // const [a, b] = ag(2)(3)[0];
 // console.log(a);
 // console.log(b);
-function salom(a){
-    return function(b){
-     return[[a+1, b+2]]
-    }
-}
-const [a,b]=salom(2)(3)[0]
-console.log(a);
-console.log(b);
+
+// function salom(a){
+//     return function(b){
+//      return[[a+1, b+2]]
+//     }
+// }
+// const [a,b]=salom(2)(3)[0]
+// console.log(a);
+// console.log(b);
+
+// function hayt(a){
+//     return function(b){
+//         return[[a-10,b-5]]
+//     }
+// }
+
+// const [a,b]=hayt(20)(20)[0]
+// console.log(a);
+// console.log(b);
+
+
+// function fn(a) {
+//   return function (b) {
+//     return [[a * 2, b * 2]];
+//   }
+// }
+
+// const [a, b] = fn(2)(3)[0];
+// console.log(a);
+// console.log(b);
+
+
+
+// console.log("1: Start");
+
+// setTimeout(() => {
+//     console.log("2: Timeout Finished");
+// }, 0);
+
+// console.log("3: End");
+
+
+// console.log("1: Berinchi chiqadi")
+// setTimeout(()=>{
+//     console.log("oxerida chiqadi");
+// })
+// console.log("ikkiinchi chiqadi");
