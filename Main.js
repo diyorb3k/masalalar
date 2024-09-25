@@ -165,11 +165,11 @@
 // console.log(a);
 // console.log(b);
 
-function ag(a) {
-  return function (b) {
-    return [[a + 2, b + 2]];
-  };
-}
-const [a, b] = ag(2)(3)[0];
-console.log(a);
-console.log(b);
+// function ag(a) {
+//   return function (b) {
+//     return [[a + 2, b + 2]];
+//   };
+// }
+// const [a, b] = ag(2)(3)[0];
+// console.log(a);
+// console.log(b);
