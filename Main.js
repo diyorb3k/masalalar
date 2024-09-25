@@ -173,3 +173,11 @@
 // const [a, b] = ag(2)(3)[0];
 // console.log(a);
 // console.log(b);
+function salom(a){
+    return function(b){
+     return[[a+1, b+2]]
+    }
+}
+const [a,b]=salom(2)(3)[0]
+console.log(a);
+console.log(b);
