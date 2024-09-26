@@ -292,13 +292,10 @@
 // console.log(a);
 // console.log(b);
 
-
 // const salom = (a)=> b=>[[a*2, b*2]]
 // const [a,b]=salom(2)(3)[0]
 // console.log(a);
 // console.log(b);
-
-
 
 // function fn(a){
 //     return function(b){
@@ -309,8 +306,22 @@
 // console.log(a);
 // console.log(b);
 
-
 // const salom = (a) => (b) => [[a * 2, b * 2]];
 // const [a,b]=salom(2)(3)[0]
+// console.log(a);
+// console.log(b);
+
+//  const fn =(a)=>(b)=> [[a*2, b*2]]
+//  const [a,b]=fn(2)(3)[0]
+//  console.log(a);
+//  console.log(b);
+
+// const fn =(a)=>(b)=>[[a*2, b*2]]
+// const[a,b]=fn(2)(3)[0]
+// console.log(a);
+// console.log(b);
+
+// const fn = (a) => (b) => [[a * 2, b * 2]];
+// const [a, b] = fn(2)(3)[0];
 // console.log(a);
 // console.log(b);
