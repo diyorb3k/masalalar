@@ -193,7 +193,6 @@
 // console.log(a);
 // console.log(b);
 
-
 // function fn(a) {
 //   return function (b) {
 //     return [[a * 2, b * 2]];
@@ -204,8 +203,6 @@
 // console.log(a);
 // console.log(b);
 
-
-
 // console.log("1: Start");
 
 // setTimeout(() => {
@@ -213,7 +210,6 @@
 // }, 0);
 
 // console.log("3: End");
-
 
 // console.log("1: Berinchi chiqadi")
 // setTimeout(()=>{
@@ -227,7 +223,6 @@
 // console.log(a);
 // console.log(b);
 
-
 // Array funksiyada\
 
 // function salom(a){
@@ -237,5 +232,85 @@
 // }
 
 // const [a,b]=salom(10)(10)[0]
+// console.log(a);
+// console.log(b);
+
+// function salom(a){
+//     return function (b){
+//         return[[a+3, b+2]]
+//     }
+// }
+// const [a,b]=salom(3)(4)[0]
+// console.log(a);
+// console.log(b);
+
+// function salom(s) {
+//   return function (b) {
+//     return [[s - 10, b + 10]];
+//   };
+// }
+// const [s, b] = salom(5)(10)[0];
+// console.log(s);
+// console.log(b);
+
+// const fn = a => b => [[a * 2, b * 2]];
+// const [a,b] = fn(2)(3)[0];
+// console.log(a);
+// console.log(b);
+
+// const salom = a => b=> [[a*2, b*2]]
+// const [a,b]=salom(2)(3)[0]
+// console.log(a);
+// console.log(b);
+
+// const salom =a=> b=>[[a*2,b*2]]
+// const [a,b]=salom(2)(3)[0]
+// console.log(a);
+// console.log(b)
+
+// function salom(c) {
+//   return function (b) {
+//     return [[c * 2, b * 2]];
+//   };
+// }
+// const [c, b] = salom(2)(3)[0];
+// console.log(c);
+// console.log(b);
+
+// const salom = (a) => (b) => [[a * 2, b * 2]];
+// const [a,b]=salom(2)(3)[0]
+// console.log(a);
+// console.log(b);
+
+// function fn(a) {
+//   return function (b) {
+//     return [[a * 2, b * 2]];
+//   };
+// }
+
+// const [a, b] = fn(2)(3)[0];
+// console.log(a);
+// console.log(b);
+
+
+// const salom = (a)=> b=>[[a*2, b*2]]
+// const [a,b]=salom(2)(3)[0]
+// console.log(a);
+// console.log(b);
+
+
+
+// function fn(a){
+//     return function(b){
+//         return[[a*2, b*2]]
+//     }
+// }
+// const[a,b]=fn(2)(3)[0]
+// console.log(a);
+// console.log(b);
+
+
+// const salom = (a) => (b) => [[a * 2, b * 2]];
+// const [a,b]=salom(2)(3)[0]
 // console.log(a);
 // console.log(b);
