@@ -351,10 +351,7 @@
 // },1000)
 
 // setinterval bilan setTimeout farqi Setinterval berilgan vaqt iscchida qayta qayta chaqiradi  settemout esa bir martalik kichik loyixani bajarish uchun ishlatiladi
-
 // function salomBer() {
 //   console.log("Salom, dunyo!");
 // }
 // salomBer(); // "Bu function declarition funksiyamiz buladi!"
-
-
